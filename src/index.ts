@@ -5,14 +5,14 @@ import { config } from "./config.js";
 const app = express();
 
 app.use(cors({
-    origin: "*mystory.khaelano.dev",
+    origin: "https://mystory.khaelano.dev",
 }))
 
 app.use(express.json());
 app.use(router);
 
 app.listen(config.port, () => {
-    console.log(`Server running on http://localhost:${config.port} [${config.nodeEnv}]`);
+    console.log(`Server running on port ${config.port} [${config.nodeEnv}]`);
 });
 
 export default app;
