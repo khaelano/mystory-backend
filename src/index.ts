@@ -9,3 +9,5 @@ app.use(router);
 app.listen(config.port, () => {
     console.log(`Server running on http://localhost:${config.port} [${config.nodeEnv}]`);
 });
+
+module.exports = app;
