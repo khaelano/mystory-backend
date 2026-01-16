@@ -1,9 +1,9 @@
 # My Story
 
 ## <a name="introduction"></a> Introduction :
-A backend for story management website.
-[Fronend link]()
-
+A backend for story management website. [Backend URL](https://api.mystory.khaelano.dev)
+[Frontend GitHub link](https://github.com/khaelano/mystory-frontend.git)  
+[Frontend URL](https://mystory.khaelano.dev)  
 
 ## Table of Contents
 
