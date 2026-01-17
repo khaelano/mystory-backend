@@ -6,7 +6,7 @@ import { config } from "./config.js";
 const app = express();
 
 app.use(cors({
-    origin: "https://mystory.khaelano.dev",
+    origin: true,
 }))
 
 app.use(express.json());
