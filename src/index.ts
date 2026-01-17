@@ -1,5 +1,6 @@
 import express from "express";
 import router from "./routes.js";
+import cors from "cors";
 import { config } from "./config.js";
 
 const app = express();
@@ -16,7 +17,3 @@ app.listen(config.port, () => {
 });
 
 export default app;
-
-function cors(arg0: { origin: string; }): any {
-    throw new Error("Function not implemented.");
-}
